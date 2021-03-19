@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-family: 'Akaya Telivigala', cursive;
+	/* font-family: 'Indie Flower', cursive; */
+	font-size: 24px;
+}
+.contenedor {
+    width: 100%;
+    margin: auto;
+}
+.cuidados,
+.historia,
+.bebe,
+.beba {
+    position: relative;
+    display: block;
+    width: 50%;
+    float: left;
+    border: 1px solid gray;
+    padding: 3%;   
+}
+.cuidados header,
+.historia header {
+    position: relative;
+    display: block;
+}
+.cuidados img,
+.historia img {
+    position: relative;
+    display: block;
+    height: 70px;
+    width: auto;
+    float: right;
+}
+.cuidados h1,
+.historia h1 {
+    clear: both;
+    position: relative;
+    display: block;
+	font-weight: normal;
+    font-size: 150%;
+    margin-bottom: 3%;  
+    text-align: left;  
+    border-top: 4px solid #b46b96;
+}
+.cuidados section{
+    position: relative;
+    display: block;
+    margin-left: 15%;
+    margin-bottom: 3%;
+}
+.cuidados p {
+    font-size: 90%;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align: center;
+}
+.historia p {
+    font-size: 90%;
+    margin-bottom: 3%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.bebe p,
+.beba p {
+    font-size: 110%;
+    margin-bottom: 5%;
+    line-height: 150%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.bebe h1,
+.beba h1 {
+    position: relative;
+    display: block;
+	font-weight: normal;
+    font-size: 160%;
+    margin-bottom: 5%;  
+    text-align: center; 
+}
+.bebe h1 {
+    color: #391eb4;
+}
+.beba h1 {
+    color: #b46b96;
+}
+.bebe section,
+.beba section {
+    text-align: right;
+    font-size: 100%;
+}
+.bebe span,
+.bebe ion-icon,
+.beba span,
+.beba ion-icon {
+    color: #b46b96;
+    vertical-align: middle;
+    margin-left: 2%;
+}
